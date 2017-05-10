@@ -30,6 +30,7 @@
     "file-loader": "^0.11.1",
     "html-webpack-plugin": "^2.28.0",
     "node-sass": "^4.5.2",
+    "php": "^0.0.1",
     "postcss-loader": "^2.0.1",
     "raw-loader": "^0.5.1",
     "react": "^15.5.4",

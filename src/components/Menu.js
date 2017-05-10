@@ -8,6 +8,7 @@ class Menu extends Component {
   }
 
   componentDidMount () {
+    console.log('here')
     query(`allCategories {
     name
     slug
@@ -23,7 +24,6 @@ class Menu extends Component {
   render () {
     return <div className='Menu'>
       <h2>Our Menu</h2>
-
       <section className='categories'>
         <ul>
           {this.state.categories.map(({ slug, name }, i) => (
